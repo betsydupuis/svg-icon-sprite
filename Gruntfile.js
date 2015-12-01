@@ -18,7 +18,7 @@ module.exports = function (grunt) {
                         { mergePaths: false },
                         { collapseGroups: true },
                         { convertColors: false},
-                        { convertStyleToAttrs: false},
+                        { convertStyleToAttrs: true},
                         { removeFill: true},
                         { cleanupEnableBackground: false},
                         { removeStyleElement: true}
